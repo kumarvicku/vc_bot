@@ -14,7 +14,6 @@ from bot import bot
 import asyncio
 import os
 
-
 if Config.DATABASE_URI:
     from utils import db
 
